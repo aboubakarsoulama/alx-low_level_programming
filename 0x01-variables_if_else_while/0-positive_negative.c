@@ -9,11 +9,12 @@
  * main - Prints if number is positive or negative.
  * Return: 0
  */
-int main(void)
 
+int main(void)
 {
 
 int n;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
@@ -32,7 +33,8 @@ else if (n == 0)
 printf("%d is zero\n", n);
 
 }
-else
+
+else if (n < 0)
 
 {
 
