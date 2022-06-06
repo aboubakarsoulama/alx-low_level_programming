@@ -3,8 +3,10 @@
 /**
  *main - Entry point
  *Description: prints numbers
- *Return: Always 0 (success)    
+ *Return: Always 0 (success)
  */
+
+
 int main(void)
 {
 int i;
