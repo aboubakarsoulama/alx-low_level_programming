@@ -7,6 +7,7 @@
  */
 int main(void)
 {
+
 int ch;
 
 for (ch = 'a'; ch <= 'z'; ch++)
@@ -21,4 +22,5 @@ else
 }
 putchar('\n');
 return (0);
+
 }
