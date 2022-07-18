@@ -1,11 +1,11 @@
-dog - Frees dogs.
- * @d: The dog to be freed.
- */
 #include "dog.h"
 #include <stdlib.h>
 
 /**
- * free_void free_dog(dog_t *d)
+ * free_dog - Frees dogs.
+ * @d: The dog to be freed.
+ */
+void free_dog(dog_t *d)
 {
 	if (d == NULL)
 		return;
